@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Source Code Pro";
+  src: url(SourceCodePro-Regular.ttf) format("truetype");
+}
+
+body {
+  background-color: #0e1525;
+}
+
+.to_center {
+  color: white;
+  font-family: "Source Code Pro";
+  text-align: center;
+}
+
+.to_center:hover {
+  color: #0079F2;
+}
+
+.button {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Source Code Pro";
+}
+
+.centered_button {
+  text-align: center;
+}
+
+.button:hover {
+  color: #0079F2;
+  border: 2px solid #0079F2;
+}
+
+.bord {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: auto;
+  border: 3px solid #ffffff;
+  box-shadow: 2px 2px 5px rgb(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+#box {
+  transition: 2s;
+  opacity: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#at {
+  font-family: "Source Code Pro";
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+}
+
+#q {
+  font-size: 10px;
+}
+
+.answer {
+  color: white;
+  background-color: #0e1525;
+  font-family: "Source Code Pro";
+  font-size: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 41%;
+  height: 100%;
+}
+
+.answer:hover {
+  color: #0079F2;
+  border: 2px solid #0079F2;
+  ;
+}
+
+#aa {
+  align-self: left;
+  margin-left: 6%;
+}
+
+#ab {
+  align-self: right;
+  margin-left: 6%;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0e1525;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #18233f;
+}
